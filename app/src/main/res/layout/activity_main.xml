@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/numPad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="221dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttonBloq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnBloq"
+            android:onClick="btnBloq"/>
+
+        <Button
+            android:id="@+id/buttonSlash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnSlash"
+            android:onClick="btnSlash"/>
+
+        <Button
+            android:id="@+id/buttonDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnDot"
+            android:onClick="btnDot"/>
+
+        <Button
+            android:id="@+id/buttonMinun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnMinun"
+            android:onClick="btnMinun"
+            />
+
+        <Button
+            android:id="@+id/buttonSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnSeven"
+            android:onClick="btnSeven"/>
+
+        <Button
+            android:id="@+id/buttonEigth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnEigth"
+            android:onClick="btnEigth"/>
+
+        <Button
+            android:id="@+id/buttoNine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnNine"
+            android:onClick="btnNine"/>
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill_vertical"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnPlus"
+            android:onClick="btnPlus"/>
+
+        <Button
+            android:id="@+id/buttoFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnFour"
+            android:onClick="btnFour"/>
+
+        <Button
+            android:id="@+id/buttoFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnFive"
+            android:onClick="btnFive"/>
+
+        <Button
+            android:id="@+id/buttoSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnSix"
+            android:onClick="btnSix"/>
+
+        <Button
+            android:id="@+id/buttoOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnOne"
+            android:onClick="btnOne"/>
+
+        <Button
+            android:id="@+id/buttoTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnTwo"
+            android:onClick="btnTwo"/>
+
+        <Button
+            android:id="@+id/buttoThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnThree"
+            android:onClick="btnThree"/>
+
+        <Button
+            android:id="@+id/buttoIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill_vertical"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnIntro"
+            android:onClick="btnIntro"/>
+
+        <Button
+            android:id="@+id/buttoCero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnZero"
+            android:onClick="btnZero"/>
+
+        <Button
+            android:id="@+id/buttoSpru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/black"
+            android:text="@string/btnSpru"
+            android:onClick="btnSpur"/>
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

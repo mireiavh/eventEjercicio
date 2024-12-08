@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="btnBloq">Bloq</string>
+    <string name="btnSlash">/</string>
+    <string name="btnDot">*</string>
+    <string name="btnMinun">-</string>
+    <string name="btnPlus">+</string>
+    <string name="btnIntro">Intro</string>
+    <string name="btnSeven">7</string>
+    <string name="btnEigth">8</string>
+    <string name="btnNine">9</string>
+    <string name="btnFour">4</string>
+    <string name="btnFive">5</string>
+    <string name="btnSix">6</string>
+    <string name="btnOne">1</string>
+    <string name="btnTwo">2</string>
+    <string name="btnThree">3</string>
+    <string name="btnZero">0</string>
+    <string name="btnSpru">Spru</string>
+</resources>
